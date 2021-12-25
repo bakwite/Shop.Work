@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: #3b3b3b;
+    text-decoration: none;
+}
+a:hover{
+    color: #c38749;
+}
+button{
+    background: none;
+    border: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.banxin{
+    width: 1200px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.fBug{
+    overflow: hidden;
+}
+.juzhong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.juzhong1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
